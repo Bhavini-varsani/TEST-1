@@ -1,0 +1,54 @@
+body {
+    padding: 2px;
+}
+#header {
+    background-color: #333333;
+    height: 5%;
+    text-align: top;
+}
+#header h1 {
+    font-size: 50px;
+    font-weight: bold;
+    text-align: left;
+    padding-top: 2%;
+    color: yellow;
+    font-family: sans-serif;
+}
+#nav {
+    background-color: #333333;
+    height: 50px;
+    line-height: 4%;
+}
+#nav h2 {
+    float: right;
+}
+#navop2 {
+    color: white;
+}
+#navop1 {
+    color: #999999;
+    padding-right: 5px;
+}
+#image1p1 {
+    font-size: 300%; 
+    height: 600px;
+    background: url(big_img.jpg);
+    background-size: 100% 100%;
+    font-style: italic;
+    line-height: 10%;
+    color: grey;
+}
+#image1p2 {
+    font-size: 50%; 
+    color: gray;
+    font-style: italic;
+}
+#paragraph2 {
+    text-align: justify;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+#paragraph2 h1 {
+    text-align: left;
+    
+}
