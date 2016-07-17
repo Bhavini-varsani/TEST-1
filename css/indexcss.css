@@ -3,24 +3,35 @@ body {
 }
 #header {
     background-color: #333333;
-    height: 5%;
+    height: 300px;
     text-align: top;
+    width: 50%;
+    float: left;
+    clear: left; 
+    padding-bottom: 2px;
 }
 #header h1 {
-    font-size: 50px;
-    font-weight: bold;
+    font-size: 700%;
+    font-weight: normal;
     text-align: left;
-    padding-top: 2%;
     color: yellow;
     font-family: sans-serif;
+    vertical-align: middle;
 }
 #nav {
     background-color: #333333;
-    height: 50px;
-    line-height: 4%;
+    height: 100px;
+    width: 50%;
+    text-align: bottom;;
+    float: right;
+    padding-top: 200px;
+    padding-bottom: 2px;
+    clear: right;
+    vertical-align: middle;
 }
 #nav h2 {
     float: right;
+    padding-right: 3%;
 }
 #navop2 {
     color: white;
@@ -29,26 +40,22 @@ body {
     color: #999999;
     padding-right: 5px;
 }
-#image1p1 {
-    font-size: 300%; 
-    height: 600px;
-    background: url(big_img.jpg);
+#image1 {
+    margin-top: 350px;
+    background-image: url(big_img.jpg);
+    background-repeat: no-repeat;
     background-size: 100% 100%;
-    font-style: italic;
+    height: 800px;
+}
+#image1p1 {
+    font-size: 300%;
+    color: #333333;
     line-height: 10%;
-    color: grey;
+    padding-top: 10px;
+    font-style: italic;
 }
 #image1p2 {
-    font-size: 50%; 
+    font-size: 100%; 
     color: gray;
     font-style: italic;
-}
-#paragraph2 {
-    text-align: justify;
-    padding-right: 10%;
-    padding-left: 10%;
-}
-#paragraph2 h1 {
-    text-align: left;
-    
 }
