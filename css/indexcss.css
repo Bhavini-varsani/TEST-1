@@ -117,3 +117,31 @@ button {
     text-align: center;
     font-family: sans-serif;
 }
+#part4 {
+    background-color: white;
+}
+#part4a {
+    width: 50%;
+    float: left;
+}
+#part4 h3 {
+    font-size: 200%;
+    font-weight: 600;
+    padding-left: 7%;
+    font-family: sans-serif;
+}
+#part4 p {
+    color: #a6a6a6;
+    font-size: 180%;
+    padding-left: 7%;
+    font-family: sans-serif;
+    font-weight:300; 
+    line-height: 50%;
+}
+#part4b {
+    width: 50%;
+    float: right;
+}
+#part4 img {
+    align-content: right;
+}
